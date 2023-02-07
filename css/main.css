@@ -342,3 +342,24 @@ body {
     top: 408px;
     right: 0;
 }
+@media only screen and (max-with: 767px) {
+    .container {
+        width: 96%;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .main-banner {
+        background: none;
+        min-height: auto;
+    }
+    .main-section__image {
+        display: none;
+    }
+    .main-section > div {
+        width: 100px;
+    }
+    .statistics__item {
+        width: 100px;
+    }
+}

@@ -105,3 +105,73 @@ input:focus {
 .contact-send {
     margin-top: 30px;
 }
+.footer {
+    padding: 50px 0;
+    background-color: #021007;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-navigation__items {
+    margin-bottom: 50px;
+}
+.footer-brand img {
+    width: 128px;
+}
+.footer-navigation__item {
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer-navigation__item a {
+    color: white;
+    text-decoration: none;
+}
+.footer__socials {
+    list-style: none;
+}
+.footer-social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 1rem;
+    margin-right: 12px;
+}
+.footer-social a {
+    color: #021017;
+}
+.footer__text {
+    color: #797979;
+}
+.footer-social:hover {
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    color: white;
+    font-weight: bold;
+}
+.footer-social:hover i{
+    color: white;
+}
+@media only screen and (max-with: 767px) {
+    .container {
+        width: 96%;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .main-banner {
+        background: none;
+        min-height: auto;
+    }
+    .main-section__image {
+        display: none;
+    }
+    .main-section > div {
+        width: 100px;
+    }
+    .statistics__item {
+        width: 100px;
+    }
+}

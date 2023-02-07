@@ -6,19 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       .container {
-            width: 800px;
-            padding: 50px;
-            margin: 0 auto;
+      table {
+         border-collapse: collapse;
+         width: 50%;
+         margin: 0 auto;
+       }
+       th, td {
+         border: 1px solid black;
+         padding: 8px;
+         text-align: center;
+       }
+       th {
+         background-color: #f2f2f2;
        }
     </style>
 </head>
 <body>
-   <div class="container">
-    <input type="radio" name="gender" value="male" id="male">
-    <label for="male">erkak</label>
-    <input type="radio" name="gender" value="famale" id="famale">
-    <label for="famale">ayol</label>
-   </div>
+   <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>23</td>
+        <td>London</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </table>
 </body>
 </html>
