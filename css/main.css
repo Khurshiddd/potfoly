@@ -192,6 +192,7 @@ body {
     margin-right: 3%;
     text-align: center;
     box-sizing: border-box;
+    transition: all 0.4s ease 0s;
 }
 .sevice-card:hover {
     background-color: #5f30ff;
@@ -306,6 +307,7 @@ body {
     background-color: rgba(19, 69, 230, 0.9);
     visibility: hidden;
     z-index: 1;
+    transition: all 0.4s ease;
 }
 .portfolio-item__info {
     position: absolute;
@@ -314,6 +316,7 @@ body {
     color: white;
     visibility: hidden;
     z-index: 1;
+    transition: all 0.4s ease;
 }
 .portfolio-item__info a {
     color: white;
@@ -341,25 +344,4 @@ body {
     position: absolute;
     top: 408px;
     right: 0;
-}
-@media only screen and (max-with: 767px) {
-    .container {
-        width: 96%;
-    }
-    .main-navigation {
-        display: none;
-    }
-    .main-banner {
-        background: none;
-        min-height: auto;
-    }
-    .main-section__image {
-        display: none;
-    }
-    .main-section > div {
-        width: 100px;
-    }
-    .statistics__item {
-        width: 100px;
-    }
 }
